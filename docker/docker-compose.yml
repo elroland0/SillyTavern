@@ -9,7 +9,7 @@ services:
       - FORCE_COLOR=1
     ports:
       - "8800:80"
-     volumes:
+    volumes:
       - "./config:/home/node/app/config"
       - "./data:/home/node/app/data"
       - "./plugins:/home/node/app/plugins"
